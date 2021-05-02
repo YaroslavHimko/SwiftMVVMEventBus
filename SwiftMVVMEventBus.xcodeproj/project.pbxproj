@@ -13,6 +13,9 @@
 		17F79253263ED0C7008852A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F79251263ED0C7008852A3 /* Main.storyboard */; };
 		17F79255263ED0D2008852A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F79254263ED0D2008852A3 /* Assets.xcassets */; };
 		17F79258263ED0D2008852A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F79256263ED0D2008852A3 /* LaunchScreen.storyboard */; };
+		17F79260263ED230008852A3 /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F7925F263ED230008852A3 /* Bus.swift */; };
+		17F79262263ED244008852A3 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F79261263ED244008852A3 /* Event.swift */; };
+		17F79264263EDA48008852A3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F79263263EDA48008852A3 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		17F79254263ED0D2008852A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17F79257263ED0D2008852A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17F79259263ED0D2008852A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17F7925F263ED230008852A3 /* Bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
+		17F79261263ED244008852A3 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		17F79263263EDA48008852A3 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				17F79254263ED0D2008852A3 /* Assets.xcassets */,
 				17F79256263ED0D2008852A3 /* LaunchScreen.storyboard */,
 				17F79259263ED0D2008852A3 /* Info.plist */,
+				17F7925F263ED230008852A3 /* Bus.swift */,
+				17F79261263ED244008852A3 /* Event.swift */,
+				17F79263263EDA48008852A3 /* ViewModel.swift */,
 			);
 			path = SwiftMVVMEventBus;
 			sourceTree = "<group>";
@@ -139,7 +148,10 @@
 			files = (
 				17F79250263ED0C7008852A3 /* ViewController.swift in Sources */,
 				17F7924C263ED0C7008852A3 /* AppDelegate.swift in Sources */,
+				17F79260263ED230008852A3 /* Bus.swift in Sources */,
 				17F7924E263ED0C7008852A3 /* SceneDelegate.swift in Sources */,
+				17F79264263EDA48008852A3 /* ViewModel.swift in Sources */,
+				17F79262263ED244008852A3 /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
